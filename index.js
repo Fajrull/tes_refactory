@@ -3,6 +3,10 @@ class Kendaraan {
         this.nama = nama;
         this.jumlahHari =jumlahHari
     }
+
+    hitungHargaSewa(){
+        console.log("ini adalah harga sewa kendaraan")
+    }
 }
 
 class mobil extends Kendaraan {
